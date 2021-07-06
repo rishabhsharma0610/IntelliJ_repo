@@ -1,0 +1,30 @@
+--Request 
+POST https://update.googleapis.com/service/update2/json
+Host: update.googleapis.com
+Content-Type: application/json
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: empty
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+----
+ POSTDATA {"request":{"@os":"win","@updater":"chromium","acceptformat":"crx2,crx3","app":[{"appid":"oimompecagnajdejgnnjijobebaeigek","event":[{"download_time_ms":4109,"downloaded":6864918,"downloader":"bits","eventresult":1,"eventtype":14,"nextversion":"4.10.2209.0","previousversion":"4.10.1610.0","total":6864918,"url":"http://edgedl.me.gvt1.com/edgedl/chromewebstore/L2Nocm9tZV9leHRlbnNpb24vYmxvYnMvNDY1QUFXN0xyYXk3alhLdzdZUk9VYkQwUQ/4.10.2209.0_oimompecagnajdejgnnjijobebaeigek.crx"},{"eventresult":1,"eventtype":3,"nextfp":"1.0727b38159b38ffa3633510444ece15c86417962e8cac59c59002f13b50239ac","nextversion":"4.10.2209.0","previousfp":"1.3a7afafe965da76cea59344022f69dcb9eaaef382ce56eb1daa8d20f9ec80c16","previousversion":"4.10.1610.0"}],"version":"4.10.2209.0"}],"arch":"x64","dedup":"cr","hw":{"physmemory":12},"lang":"en-US","nacl_arch":"x86-64","os":{"arch":"x86_64","platform":"Windows","version":"10.0.18363.1621"},"prodversion":"90.0.4430.93","protocol":"3.1","requestid":"{816fbdab-e82b-45e2-bf1f-43776e3346e3}","sessionid":"{ec7f0324-4c6b-47e8-9ce1-2460eaee1d21}","updaterversion":"90.0.4430.93"}}
+--Response 
+HTTP/1.1 200
+content-security-policy: script-src 'report-sample' 'nonce-L23yIBbwP0izQ5lVNLA5tA' 'unsafe-inline' 'strict-dynamic' https: http:;object-src 'none';base-uri 'self';report-uri https://csp.withgoogle.com/csp/clientupdate-aus/1
+cache-control: no-cache, no-store, max-age=0, must-revalidate
+pragma: no-cache
+expires: Mon, 01 Jan 1990 00:00:00 GMT
+date: Tue, 06 Jul 2021 09:11:18 GMT
+content-type: application/json; charset=utf-8
+x-daynum: 5300
+x-daystart: 7878
+content-encoding: gzip
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+x-xss-protection: 1; mode=block
+content-length: 168
+server: GSE
+alt-svc: h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"
+----
+
